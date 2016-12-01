@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: test_1201_hatano
+  host: hhatano
+  disk_quota: 1024M
+  services:
+  - test_1201_hatano-cloudantNoSQLDB
